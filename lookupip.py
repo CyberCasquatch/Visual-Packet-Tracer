@@ -1,7 +1,7 @@
 import pygeoip
 
 # Initialize GeoIP database
-gi = pygeoip.GeoIP('/Users/vonatron/PycharmProjects/VisualPacketTracker/.venv/GeoLiteCity.dat')
+gi = pygeoip.GeoIP('/PATH/TO/GeoLiteCity.dat') #file path to your GeoLiteCity.dat file
 
 # Specify IP addresses to query
 ip_addresses = ['8.8.8.8', '127.0.0.1']  # Example IP addresses - use your own IP
